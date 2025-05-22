@@ -11,7 +11,7 @@ A Spring Boot service that summarizes your to-do items using the Gemini API and 
 - Handles errors gracefully with fallback messages.
 - Uses reactive programming with Spring WebFlux’s `WebClient` for asynchronous HTTP calls.
 
----
+Youtube link+(https://www.youtube.com/watch?v=btYPeSANx5I)
 
 ## Technologies Used
 
