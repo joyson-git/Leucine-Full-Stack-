@@ -40,7 +40,7 @@ public class TodoController {
         todoService.deleteTodo(id);
         return ResponseEntity.noContent().build();
     }
-    
+   
     @PostMapping("/summarize")
     public Mono<String> summarizeAndSendToSlack(@RequestBody SummaryRequest summaryRequest) {
         return summaryService.summarizeTodos(summaryRequest.getTodos())
